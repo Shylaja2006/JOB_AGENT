@@ -1,0 +1,63 @@
+.resume-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  
+  .resume-form label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .resume-form textarea,
+  .resume-form input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    resize: vertical;
+  }
+  
+  .resume-form textarea:focus,
+  .resume-form input:focus {
+    border-color: #2563eb;
+  }
+  
+  .resume-form button {
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .resume-form button:hover {
+    background: #1d4ed8;
+  }
+  
+  .resume-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #e5e7eb;
+    color: #374151;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background: #d1d5db;
+  }
